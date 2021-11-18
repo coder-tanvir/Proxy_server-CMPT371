@@ -29,7 +29,7 @@ while 1:
               # Fill in End
 	print(message)
 	# Extract the filename from the given message
-	print message.split()[1]
+	print (message.split()[1])
 	filename = message.split()[1].partition("/")[2]
 	print(filename)
 	fileExist = "false"
